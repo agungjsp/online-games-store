@@ -21,6 +21,8 @@
     ],
     "rules": {
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+        "react/jsx-one-expression-per-line": [0, { "allow": "literal" }],
+        "react/self-closing-comp": ["error", { "component": false, "html": false }],
         "react/react-in-jsx-scope": "off"
     }
 }
