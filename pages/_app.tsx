@@ -3,6 +3,18 @@ import '../styles/homepage.css';
 import '../styles/detail.css';
 import '../styles/checkout.css';
 import '../styles/complete-checkout.css';
+import '../styles/sign-in.css';
+import '../styles/sign-up.css';
+import '../styles/sign-up-success.css';
+import '../styles/sign-up-photo.css';
+import '../styles/sign-up-photo-success.css';
+import '../styles/404-not-found.css';
+import '../styles/sidebar.css';
+import '../styles/overview.css';
+import '../styles/transactions.css';
+import '../styles/transactions-detail.css';
+import '../styles/edit-profile.css';
+
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 
@@ -12,9 +24,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         {/* Bootstrap CSS */}
         <link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
           rel="stylesheet"
-          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
           crossOrigin="anonymous"
         />
 
@@ -30,8 +42,8 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         {/* Bootstrap JS */}
         <script
-          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
           crossOrigin="anonymous"
         />
       </Head>
