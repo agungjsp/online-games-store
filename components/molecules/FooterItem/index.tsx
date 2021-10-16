@@ -1,6 +1,6 @@
 import cx from 'classnames';
 
-import FooterLinkItem from '../../atoms/FooterLinkItem';
+import FooterLinkItem from './FooterLinkItem';
 
 interface SubtitleItemsProps {
   subtitle: string;
@@ -26,7 +26,7 @@ export default function FooterItem(props: Partial<FooterItemsProps>) {
       <p className="text-lg fw-semibold color-palette-1 mb-12">{title}</p>
       <ul className="list-unstyled">
         {subtitle?.map((item) => (
-          <FooterLinkItem subtitle={item.subtitle} href={item.href} />
+          <FooterLinkItem subtitle={item.subtitle} href={item.href} key={item.subtitle} />
         ))}
       </ul>
     </div>
